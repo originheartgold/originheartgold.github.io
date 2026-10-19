@@ -1,0 +1,87 @@
+# Pokémon Origin HeartGold English translation
+
+> The official site of the Origin HeartGold English translation. Patches are published only on our GitHub releases. Origin HeartGold (起源心金) v4.0.3 is a Chinese fan game built on Pokémon HeartGold, by 雁南飞TB (Yannanfei TB), with v4 by Alex. The English translation is a free patch for your own Pokémon HeartGold Version (USA) ROM (CRC32 C180A0E9); no ROMs are provided. The current English patch is v1.0.0-rc8, released 13 October 2026. This site also has a walkthrough (quest guide), a Pokédex and reference pages for locations, items, moves, abilities, TMs and trainers.
+
+© 2026 Origin HeartGold English translation team. The guide and website text is all rights reserved: linking to any page and short quotes with a link back are welcome. Facts and game data are not ours to claim. Full terms: https://github.com/originheartgold/origin-heart-gold-EN-translation/blob/main/LICENSE-GUIDE
+
+Official links:
+
+- Website: https://originheartgold.github.io/
+- Download and patch in the browser: https://originheartgold.github.io/patch/
+- GitHub releases (the only place patches are published): https://github.com/originheartgold/origin-heart-gold-EN-translation/releases
+- Latest release notes: https://github.com/originheartgold/origin-heart-gold-EN-translation/releases/tag/v1.0.0-rc8
+- GitHub repository: https://github.com/originheartgold/origin-heart-gold-EN-translation
+- Discord (official community): https://discord.gg/sQY2udrQS
+
+## Start here
+
+- [Download the English patch](https://originheartgold.github.io/patch/): Download the Origin HeartGold English patch, or drop your own Pokémon HeartGold (USA) .nds or .zip and get the English game, patched in your browser.
+- [FAQ](https://originheartgold.github.io/faq/): Answers to the questions players ask most about Origin HeartGold in English, from patching errors and game speed to natures, nicknames, evolutions and the story spots where people get stuck.
+- [How to play and how to use the guide](https://originheartgold.github.io/about/): What you need to play, what this guide covers, how it was made and how to read it.
+- [Difficulty settings](https://originheartgold.github.io/difficulty/): The optional level cap, the EXP sharing switch and the battle-item limit added to the English patch in rc7 (updated in rc8), and exactly when the level cap goes up.
+- [Mechanics and controls](https://originheartgold.github.io/mechanics/): EXP sharing, capture chains, EV training, evolution rules, held-item forms and the controls added in Origin HeartGold v4.0.3.
+
+## Walkthrough (quest guide)
+
+- [Walkthrough overview](https://originheartgold.github.io/guide/): Origin HeartGold walkthrough: main quests, side quests, puzzles and easy-to-miss events in Origin HeartGold (起源心金 v4.0.3), in the order the game unlocks them…
+- [Chapter 1: The First Badge](https://originheartgold.github.io/guide/ch01-first-badge/): Pallet Town to Pewter City and Brock's Boulder Badge.
+- [Chapter 2: Mt. Moon](https://originheartgold.github.io/guide/ch02-mt-moon/): Route 3 and Mt. Moon: gather your four companions and get past the fake construction guards.
+- [Chapter 3: Cerulean City and the Cascade Badge](https://originheartgold.github.io/guide/ch03-cerulean-cascade/): Cerulean City, the Cape Battle Festival, Bill's cottage and Misty's Cascade Badge.
+- [Chapter 4: Past the Cascade Badge](https://originheartgold.github.io/guide/ch04-underground-path/): Mt. Moon Square revisited, Route 9 and 10, the Route 5 shelter and the Underground Path to Vermilion.
+- [Chapter 5: Vermilion City and the Thunder Badge](https://originheartgold.github.io/guide/ch05-vermilion-thunder/): The construction-site dispute, Lt. Surge's Thunder Badge and everything Vermilion opens up.
+- [Chapter 6: The S.S. Anne](https://originheartgold.github.io/guide/ch06-ss-anne/): The party on board, the Team Rocket hijack and the one chance to save the ship.
+- [Chapter 7: Rock Tunnel and Lavender Town](https://originheartgold.github.io/guide/ch07-rock-tunnel-lavender/): Rescue Prof. Hale in Rock Tunnel, then Lavender Town and the haunted Pokémon Tower.
+- [Chapter 8: Saffron City and Celadon City](https://originheartgold.github.io/guide/ch08-celadon/): Through Saffron City to Route 7, the Team Rocket hideout under Celadon and the Rainbow Badge.
+- [Chapter 9: Cycling Road, Fuchsia City and the Soul Badge](https://originheartgold.github.io/guide/ch09-fuchsia-soul-badge/): The Secret Potion run down Cycling Road, Koga's ninja trial in Fuchsia and the Soul Badge.
+- [Chapter 10: Surf to Cinnabar Island and the Volcano Badge](https://originheartgold.github.io/guide/ch10-cinnabar-volcano-badge/): Surf south past Seafoam Islands to Cinnabar Island, Blaine's hidden Gym and the Detrick lab where Mewtwo breaks loose.
+- [Chapter 11: Pokémon Tower, the Saffron Takeover and the Marsh Badge](https://originheartgold.github.io/guide/ch11-saffron-takeover-marsh-badge/): Make Sabrina laugh in Pokémon Tower, take back Saffron City from Team Rocket and win the Marsh Badge.
+- [Chapter 12: The Alto Mare Islands, Viridian Gym and the Earth Badge](https://originheartgold.github.io/guide/ch12-alto-mare-viridian-earth-badge/): Granny Mae's trial on Two Island reopens the Viridian Gym; Giovanni's Earth Badge is the last Kanto Badge.
+- [Chapter 13: Victory Road and the Indigo Conference](https://originheartgold.github.io/guide/ch13-victory-road-indigo-conference/): The qualifiers on Victory Road, the Indigo Conference tournament and the Elite Four, ending in your first Hall of…
+- [Chapter 14: Cerulean Cave and the Mt. Silver Lodge](https://originheartgold.github.io/guide/ch14-cerulean-cave-mt-silver-lodge/): After your first Hall of Fame entry: Giovanni's duel in Cerulean Cave, your rehabilitation at the Mt. Silver lodge…
+- [Chapter 15: Into Johto: Route 26, Route 27 and New Bark Town](https://originheartgold.github.io/guide/ch15-route-26-new-bark-town/): Walk south from the Indigo Plateau gate to Route 27 and New Bark Town and deliver Prof. Oak's Pokédexes to Prof. Elm.
+- [Chapter 16: Route 29, Cherrygrove City and the Dark Cave](https://originheartgold.github.io/guide/ch16-cherrygrove-dark-cave/): Crystal's tour of Cherrygrove City, Route 30 and 31, and Team Rocket's dig at the other end of Dark Cave.
+- [Chapter 17: Violet City, Sprout Tower and the Zephyr Badge](https://originheartgold.github.io/guide/ch17-violet-city-sprout-tower/): Violet City, the memorial ceremony in Sprout Tower and Falkner's Flying-type Gym.
+- [Chapter 18: The Ruins of Alph, Route 32 and Union Cave](https://originheartgold.github.io/guide/ch18-ruins-of-alph-union-cave/): Find the missing Molly in the Ruins of Alph, then follow Route 32 and Union Cave south to Route 33.
+- [Chapter 19: Azalea Town, Slowpoke Well and Ilex Forest](https://originheartgold.github.io/guide/ch19-azalea-slowpoke-well-ilex-forest/): Team Rocket goes after the Tidal Bell in Slowpoke Well, Bugsy needs help in Ilex Forest, and you win the Hive Badge.
+- [Chapter 20: Route 34, Goldenrod City and the Plain Badge](https://originheartgold.github.io/guide/ch20-route-34-goldenrod-city/): Route 34 and the big city of Goldenrod: the Radio Tower recording, Whitney's Gym and a long list of city jobs.
+- [Chapter 21: Routes 35 to 37, the National Park and Silver on Route 37](https://originheartgold.github.io/guide/ch21-routes-35-37-national-park/): North of Goldenrod: the National Park, the odd tree on Route 36 and the first rematch scene with Silver on Route 37.
+- [Chapter 22: Ecruteak City, the Burned Tower and the Fog Badge](https://originheartgold.github.io/guide/ch22-ecruteak-burned-tower-fog-badge/): The Marauder at the Burned Tower, the Bell Tower gate quiz, Morty's Ghost Gym and Ecruteak's small errands.
+- [Chapter 23: Routes 38 and 39, Olivine City and the Mineral Badge](https://originheartgold.github.io/guide/ch23-route-39-olivine-mineral-badge/): West from Ecruteak: MooMoo Farm, Gold and Crystal on Route 39, Olivine City, Jasmine's Steel Gym and Team Rocket in…
+- [Chapter 24: Cianwood City, Cianwood Cave and the Storm Badge](https://originheartgold.github.io/guide/ch24-cianwood-city-storm-badge/): The Secret Potion for Amphy, Chuck in Cianwood Cave, the Raikou device on Route 47 and the Storm Badge.
+- [Chapter 25: Route 42, Mt. Mortar and the Lake of Rage](https://originheartgold.github.io/guide/ch25-route-42-mt-mortar-lake-of-rage/): Silver and a brainwashed Entei on Route 42, the Mt. Mortar expedition, Mahogany Town and the red Gyarados at the…
+- [Chapter 26: Mahogany Town, the Team Rocket HQ and the Glacier Badge](https://originheartgold.github.io/guide/ch26-mahogany-rocket-hq-glacier-badge/): The souvenir shop that hides a Rocket base, the Boot Camp Ruins, the HQ's three floors and Pryce's no-weather Gym.
+- [Chapter 27: Route 44, the Ice Path, Blackthorn City and the Rising Badge](https://originheartgold.github.io/guide/ch27-ice-path-blackthorn-rising-badge/): East from Mahogany through the Ice Path, Clair's dragon rule and the Dragon's Den: the eighth and last Johto Badge.
+- [Chapter 28: The Silver Conference and the League HQ's First Round](https://originheartgold.github.io/guide/ch28-silver-conference-hq-round-1/): Giovanni on Mt. Silver, the Silver Conference at the summit and the first leads from the Trainer Affairs desk.
+- [Chapter 29: League HQ Rounds 2 and 3](https://originheartgold.github.io/guide/ch29-hq-rounds-2-and-3/): Seafoam Islands and Kyogre, then Violet City's stolen Jade Orb, the Forest of Time, the legendary tracks in Johto…
+- [Chapter 30: League HQ Round 4](https://originheartgold.github.io/guide/ch30-hq-round-4/): Ho-Oh stolen from the Bell Tower, Lugia at the Whirl Islands, Giovanni's chase from Dark Cave to Dialga's and…
+- [Chapter 31: The Island Pilgrimage](https://originheartgold.github.io/guide/ch31-island-pilgrimage/): Sign up on Seven Island, clear the trials of all six islands, then follow Team Rocket from the Ritual Shrine to the…
+- [Chapter 32: The Final March and the Final Hall of Fame](https://originheartgold.github.io/guide/ch32-final-march-hall-of-fame/): Team Rocket's all-out war: the Radio Tower broadcast, Victory Road, Mewtwo, the Elite Four rooms and Giovanni in the…
+- [Chapter 33: Postgame, Lance's Visit and the Seized Items](https://originheartgold.github.io/guide/ch33-postgame-lances-visit-seized-items/): Back home after the final Hall of Fame: Lance returns the legendary items, and the orbs open the legendary…
+- [Chapter 34: Postgame, the Legends of Johto](https://originheartgold.github.io/guide/ch34-postgame-johto-legends/): The three beasts, Ho-Oh and Lugia, the Griseous Orb, the Battle Frontier's stone and the dreams of Cresselia and…
+- [Known issues](https://originheartgold.github.io/guide/known-issues/): These are suspected bugs in the original Chinese hack, found by reading its game files. The translation keeps the hack's behaviour exactly as it is, so they…
+- [Hidden items](https://originheartgold.github.io/guide/hidden-items/): Every hidden item the game data places on a map: 204 spots, plus 6 where we have no screenshot yet. Hidden items are not shown on the map. Stand on the tile…
+
+## Reference
+
+- [Pokémon](https://originheartgold.github.io/pokemon/): every Pokémon with types, abilities, base stats, moves, evolutions and where to catch it
+- [Locations](https://originheartgold.github.io/locations/): wild Pokémon, trainers, items, shops and quests for every place
+- [Items](https://originheartgold.github.io/items/): every item and where to get it
+- [Moves](https://originheartgold.github.io/moves/): move stats, effects, changes in this hack and who learns them
+- [Trainers](https://originheartgold.github.io/trainers/): Gym Leaders, rivals and every other trainer team
+- [Abilities](https://originheartgold.github.io/abilities/): ability effects and the Pokémon that have them
+- [TMs and HMs](https://originheartgold.github.io/tms/): every TM and HM, where to get it and compatible Pokémon
+- [Move tutors](https://originheartgold.github.io/tutors/): who teaches which move, where and for what
+- [Team Builder](https://originheartgold.github.io/team-builder/): plan a team of six with catch locations and a damage calculator
+- [Damage calculator](https://originheartgold.github.io/damage-calc/): your team against every trainer in route order, with editable sets on both sides
+- [Save editor](https://originheartgold.github.io/save-editor/): edit a save file in the browser
+
+## Project
+
+- [Changelog and contributors](https://originheartgold.github.io/changelog/): what changed in each release, and who helped
+- [Credits](https://originheartgold.github.io/about/#credits): the original hack, v4, the Chinese patches, the v3 English and graphics sources
+- [Licence](https://originheartgold.github.io/about/#licence): guide text all rights reserved; linking and short quotes welcome
+- [Report a problem or contribute](https://originheartgold.github.io/contribute/): how to report mistakes
+
+## Optional
+
+- [Full text](https://originheartgold.github.io/llms-full.txt): the start-here pages, the FAQ and every walkthrough chapter's overview in one Markdown file

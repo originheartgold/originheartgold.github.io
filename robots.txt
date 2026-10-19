@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://originheartgold.github.io/sitemap-index.xml

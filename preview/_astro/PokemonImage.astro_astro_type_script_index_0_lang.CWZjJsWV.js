@@ -1,0 +1,1 @@
+import{t as e}from"./pokemon-art.a4KOV2TI.js";e(),document.addEventListener(`astro:page-load`,()=>e());

@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="en" data-theme-key="starlight-theme"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Save editor · Origin HeartGold English</title>
+  <meta name="description" content="Edit your Origin HeartGold v4.0.3 (English) save in your browser: party, PC boxes, trainer and bag. Nothing is uploaded; export an edited copy and keep your original."><link rel="canonical" href="https://originheartgold.github.io/save-editor/"><meta property="og:title" content="Save editor"><meta property="og:description" content="Edit your Origin HeartGold v4.0.3 (English) save in your browser: party, PC boxes, trainer and bag. Nothing is uploaded; export an edited copy and keep your original."><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="Origin HeartGold English"><meta property="og:url" content="https://originheartgold.github.io/save-editor/"><meta property="og:image" content="https://originheartgold.github.io/og/default.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Origin HeartGold — English translation · Patch &amp; Guide"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://originheartgold.github.io/og/default.png"><meta name="twitter:image:alt" content="Origin HeartGold — English translation · Patch &amp; Guide"><meta name="theme-color" content="#efece5" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://originheartgold.github.io/#organization","name":"Origin HeartGold English translation team","url":"https://originheartgold.github.io/","logo":{"@type":"ImageObject","url":"https://originheartgold.github.io/favicon-512.png","width":512,"height":512},"sameAs":["https://github.com/originheartgold/origin-heart-gold-EN-translation","https://discord.gg/sQY2udrQS"]},{"@type":"WebSite","@id":"https://originheartgold.github.io/#website","name":"Origin HeartGold English","url":"https://originheartgold.github.io/","inLanguage":"en","alternateName":["Pokémon Origin HeartGold English","Origin HeartGold English translation","起源心金 English patch"],"description":"The official site of the Origin HeartGold English translation. Patches are published only on our GitHub releases.","publisher":{"@id":"https://originheartgold.github.io/#organization"}},{"@type":"WebPage","@id":"https://originheartgold.github.io/save-editor/#webpage","url":"https://originheartgold.github.io/save-editor/","name":"Save editor","description":"Edit your Origin HeartGold v4.0.3 (English) save in your browser: party, PC boxes, trainer and bag. Nothing is uploaded; export an edited copy and keep your original.","inLanguage":"en","isPartOf":{"@id":"https://originheartgold.github.io/#website"},"publisher":{"@id":"https://originheartgold.github.io/#organization"},"breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://originheartgold.github.io/"},{"@type":"ListItem","position":2,"name":"Save editor","item":"https://originheartgold.github.io/save-editor/"}]}}]}</script>
+  <link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">
+  
+  
+  <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+  
+  <script>
+    try {
+      const saved = localStorage.getItem('starlight-theme');
+      if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+    } catch {}
+  </script>
+  
+<link rel="stylesheet" href="/_astro/index.DyJsZ49o.css"><script type="module" src="/_astro/page.Dwipeu-R.js"></script></head><body>
+  <header class="bar">
+    <div class="brand"><a class="site-brand" href="/" aria-label="Origin HeartGold English home">ORIGIN <strong>HEARTGOLD</strong></a><h1 class="brand-title">Save editor</h1></div>
+    <div class="views seg" role="group" aria-label="Editor view" id="view-switch" hidden>
+      <button type="button" data-view="pokemon" aria-pressed="true">Party</button>
+      <button type="button" data-view="pc" aria-pressed="false">PC</button>
+      <button type="button" data-view="trainer" aria-pressed="false">Trainer</button>
+      <button type="button" data-view="bag" aria-pressed="false">Bag</button>
+    </div>
+    <div class="file-meta" id="file-meta" hidden></div>
+    <div class="bar-actions"><a class="btn ghost guide-link" href="/">Guide</a>
+      <button type="button" class="btn ghost" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7Z"/></svg></button>
+      <button type="button" class="btn ghost desktop-only" id="undo" disabled title="Undo (⌘Z)">Undo</button>
+      <button type="button" class="btn" data-open-file aria-controls="file-input">Open<span class="desktop-only">&nbsp;save</span></button>
+      <input type="file" id="file-input" accept=".sav,.dsv,application/octet-stream" hidden>
+      <button type="button" class="btn primary desktop-only" id="export" disabled>Export</button>
+    </div>
+  </header>
+
+  <main id="app">
+    <section class="drop" id="drop">
+      <div class="drop-inner">
+        <p class="drop-title">Drop your <code>.sav</code> or <code>.dsv</code> here</p>
+        <p class="drop-sub">English Origin HeartGold v4.0.3. The file never leaves this tab.</p><p class="drop-note">Keep a copy of your original save, and load the edited one only after you have checked it. Questions? See the <a href="/faq/">FAQ</a>.</p>
+        <button type="button" class="btn primary" data-open-file aria-controls="file-input">Choose file</button>
+      </div>
+    </section>
+  </main>
+
+  <nav class="dock" id="dock" aria-label="Editor" hidden>
+    <button type="button" data-view="pokemon" aria-pressed="true">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2.75 10h4.5M12.75 10h4.5" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="10" r="2.25" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+      <span>Party</span>
+    </button>
+    <button type="button" data-view="pc" aria-pressed="false">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="3" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 13v4M6 17h8" stroke="currentColor" stroke-width="1.5"/></svg><span>PC</span>
+    </button>
+    <button type="button" data-view="trainer" aria-pressed="false">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="3" y="4.5" width="14" height="11" rx="1.75" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="7.75" cy="9" r="1.75" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 13.25c.5-1.3 1.5-2 2.75-2s2.25.7 2.75 2M12 8.5h3M12 11.25h2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <span>Trainer</span>
+    </button>
+    <button type="button" data-view="bag" aria-pressed="false">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 7.25h11l-.8 8.6a1 1 0 0 1-1 .9H6.3a1 1 0 0 1-1-.9z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M7.25 7.25V6a2.75 2.75 0 0 1 5.5 0v1.25" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+      <span>Bag</span>
+    </button>
+    <span class="dock-sep" aria-hidden="true"></span>
+    <button type="button" id="dock-undo" disabled aria-label="Undo">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7.5 5 4 8.5 7.5 12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.5 8.5h7a4 4 0 0 1 0 8H9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <span>Undo</span>
+    </button>
+    <button type="button" id="dock-export" class="dock-primary">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3.5v9M6.5 9 10 12.5 13.5 9M4 15.5h12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Export</span>
+    </button>
+  </nav>
+
+  <dialog class="sheet" id="add-dialog" aria-labelledby="add-title"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  
+<footer class="site-footer"><p>Part of the <a href="/">Origin HeartGold English</a> site · <a href="/faq/">FAQ</a> · <a href="https://github.com/originheartgold/origin-heart-gold-EN-translation/issues/new?template=guide-problem.yml&amp;page=%2Fsave-editor%2F&amp;title=%5BSave%20editor%5D%20" rel="noopener">Report a problem</a></p><p>A free, non-commercial fan project. Not affiliated with or endorsed by Nintendo, Creatures Inc., GAME FREAK inc. or The Pokémon Company.</p></footer><script type="module" src="/_astro/index.astro_astro_type_script_index_0_lang.RSaqCEp0.js"></script></body></html>

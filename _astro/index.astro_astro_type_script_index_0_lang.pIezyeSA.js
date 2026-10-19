@@ -1,0 +1,1 @@
+import{i as e}from"./team-builder-ui.tMtJa4B5.js";e(),document.addEventListener(`astro:page-load`,e);
